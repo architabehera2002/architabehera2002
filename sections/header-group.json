@@ -14,20 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_iPtpHD": {
-          "type": "announcement",
-          "settings": {
-            "text": "Free shipping on orders over $200",
-            "link": ""
-          }
-        },
-        "announcement_ayzCJq": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -37,8 +23,6 @@
         }
       },
       "block_order": [
-        "announcement_iPtpHD",
-        "announcement_ayzCJq",
         "announcement-bar-0"
       ],
       "settings": {
