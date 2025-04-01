@@ -64,6 +64,40 @@
         "image_2_count": "24"
       }
     },
+    "ethical_section_FXKQNU": {
+      "type": "ethical-section",
+      "settings": {
+        "main_heading": "ETHICAL IS BEAUTIFUL",
+        "main_paragraph": "We ensure our products contribute to the well-being of people and planet, towards a brighter future.",
+        "image1": "shopify://shop_images/Broadcast_Jewelry_9-7.5_noise.webp",
+        "image1_heading": "ELSWORTH NECKLACE",
+        "image1_paragraph": "Explore rings for your big moment, and all the little memories after.",
+        "image1_button": "SHOP NOW",
+        "image1_link": "",
+        "image2": "shopify://shop_images/magnific-4Ypcc33bnA7xxd2lQvyI-u2678577971_Photography_of_an_elegant_woman_wearing_a_gold_ch_565a3c71-03db-44e6-8c37-86f34fdcadcf_0.webp",
+        "image2_heading": "MODERN AND TIMELESS",
+        "image2_paragraph": "Accessorize with 14k recycled gold all day, every day.",
+        "image2_button": "SHOP NOW",
+        "image2_link": ""
+      }
+    },
+    "image_with_product_gH4W9d": {
+      "type": "image-with-product",
+      "settings": {
+        "background_image": "shopify://shop_images/Broadcast_Jewelry_10-10_noise.jpg",
+        "overlay_opacity": 30,
+        "background_color": "#ffffff",
+        "text_color": "#ffffff",
+        "heading": "YOUR FAVORITE, NOW ON SALE!",
+        "subheading": "Available in both 14k gold and sterling silver",
+        "button_link": "",
+        "button_text": "SHOP NOW",
+        "featured_product": "ilona-ring-in-gold",
+        "product_description": "Our best-selling signet ring, now on sale for a limited time!",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "timeline_nPaqNU": {
       "type": "timeline",
       "settings": {
@@ -107,39 +141,6 @@
         "padding_bottom": 36
       }
     },
-    "ethical_section_FXKQNU": {
-      "type": "ethical-section",
-      "settings": {
-        "main_heading": "ETHICAL IS BEAUTIFUL",
-        "main_paragraph": "We ensure our products contribute to the well-being of people and planet, towards a brighter future.",
-        "image1": "shopify://shop_images/Broadcast_Jewelry_9-7.5_noise.webp",
-        "image1_heading": "ELSWORTH NECKLACE",
-        "image1_paragraph": "Explore rings for your big moment, and all the little memories after.",
-        "image1_button": "SHOP NOW",
-        "image1_link": "",
-        "image2": "shopify://shop_images/magnific-4Ypcc33bnA7xxd2lQvyI-u2678577971_Photography_of_an_elegant_woman_wearing_a_gold_ch_565a3c71-03db-44e6-8c37-86f34fdcadcf_0.webp",
-        "image2_heading": "MODERN AND TIMELESS",
-        "image2_paragraph": "Accessorize with 14k recycled gold all day, every day.",
-        "image2_button": "SHOP NOW",
-        "image2_link": ""
-      }
-    },
-    "variant_change_section_NeKnpc": {
-      "type": "variant-change-section",
-      "settings": {
-        "background_image": "shopify://shop_images/Jewelry_36.webp",
-        "product_title": "Lotti Hoops in Gold",
-        "product_tag": "Limited Release",
-        "product_price": "$198.00",
-        "main_image": "shopify://shop_images/E-LOTTI-G_082cf13e-1dc8-47ce-a4bd-c5c80c675524_2018-12-05_02-17-39_18C7Qf4y5I.webp",
-        "hover_image": "shopify://shop_images/E-LOTTI-G_2_2018-12-05_02-17-39_9FuDEpGiST.webp",
-        "gold_image": "shopify://shop_images/E-LOTTI-G_082cf13e-1dc8-47ce-a4bd-c5c80c675524_2018-12-05_02-17-39_18C7Qf4y5I.webp",
-        "silver_image": "shopify://shop_images/E-LOTTI-G_2_2018-12-05_02-17-39_9FuDEpGiST.webp",
-        "scroll_image_1": "shopify://shop_images/Broadcast_Jewelry_9-7.5_noise.webp",
-        "scroll_image_2": "shopify://shop_images/N-PALMS-S_2018-12-05_01-46-40_1shLcNTWPH.webp",
-        "scroll_image_3": "shopify://shop_images/E-LOTTI-G_2_2018-12-05_02-17-39_9FuDEpGiST.webp"
-      }
-    },
     "mm_featured_collection_HtKLXK": {
       "type": "mm-featured-collection",
       "disabled": true,
@@ -158,27 +159,32 @@
         "parallax_speed": 5
       }
     },
-    "image_with_product_gH4W9d": {
-      "type": "image-with-product",
+    "variant_change_section_NeKnpc": {
+      "type": "variant-change-section",
       "settings": {
-        "background_image": "shopify://shop_images/Broadcast_Jewelry_10-10_noise.jpg",
-        "heading": "YOUR FAVORITE, NOW ON SALE!",
-        "subheading": "Available in both 14k gold and sterling silver",
-        "button_link": "",
-        "button_text": "SHOP NOW",
-        "featured_product": "ilona-ring-in-gold"
+        "background_image": "shopify://shop_images/Jewelry_36.webp",
+        "product_title": "Lotti Hoops in Gold",
+        "product_tag": "Limited Release",
+        "product_price": "$198.00",
+        "main_image": "shopify://shop_images/E-LOTTI-G_082cf13e-1dc8-47ce-a4bd-c5c80c675524_2018-12-05_02-17-39_18C7Qf4y5I.webp",
+        "hover_image": "shopify://shop_images/E-LOTTI-G_2_2018-12-05_02-17-39_9FuDEpGiST.webp",
+        "gold_image": "shopify://shop_images/E-LOTTI-G_082cf13e-1dc8-47ce-a4bd-c5c80c675524_2018-12-05_02-17-39_18C7Qf4y5I.webp",
+        "silver_image": "shopify://shop_images/E-LOTTI-G_2_2018-12-05_02-17-39_9FuDEpGiST.webp",
+        "scroll_image_1": "shopify://shop_images/Broadcast_Jewelry_9-7.5_noise.webp",
+        "scroll_image_2": "shopify://shop_images/N-PALMS-S_2018-12-05_01-46-40_1shLcNTWPH.webp",
+        "scroll_image_3": "shopify://shop_images/E-LOTTI-G_2_2018-12-05_02-17-39_9FuDEpGiST.webp"
       }
     }
   },
   "order": [
     "image_banner",
-    "timeline_nPaqNU",
-    "featured_collection",
     "image_with_collection_Ap96xx",
     "ethical_section_FXKQNU",
-    "variant_change_section_NeKnpc",
+    "image_with_product_gH4W9d",
+    "timeline_nPaqNU",
+    "featured_collection",
     "mm_featured_collection_HtKLXK",
     "parallax_section_rCNKQF",
-    "image_with_product_gH4W9d"
+    "variant_change_section_NeKnpc"
   ]
 }
