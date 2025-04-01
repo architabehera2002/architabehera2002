@@ -1,4 +1,18 @@
-{{ 'for-everyday-wear.css' | asset_url | stylesheet_tag }}
+{{ 'image-with-collection.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
 
 <div class="trends-tradition-section page-width">
   <div class="trends-tradition-container">
@@ -6,10 +20,6 @@
       <div class="main-image-container">
         {% if section.settings.main_image != blank %}
           {% render 'responsive-picture', desktopImage: section.settings.main_image %}
-        {% endif %}
-
-        {% if section.settings.logo != blank %}
-          {% render 'responsive-picture', desktopImage: section.settings.logo %}
         {% endif %}
       </div>
 
@@ -50,7 +60,7 @@
 
 {% schema %}
 {
-  "name": "For everyday wear",
+  "name": "Image with collection",
   "tag": "section",
   "class": "trends-tradition-section",
   "settings": [
@@ -58,11 +68,6 @@
       "type": "image_picker",
       "id": "main_image",
       "label": "Main large image (Left Side)"
-    },
-    {
-      "type": "image_picker",
-      "id": "logo",
-      "label": "Logo image"
     },
     {
       "type": "text",
@@ -119,7 +124,7 @@
   ],
   "presets": [
     {
-      "name": "For everyday wear"
+      "name": "Image with collection"
     }
   ]
 }

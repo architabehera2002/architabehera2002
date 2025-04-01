@@ -1,44 +1,68 @@
 .custom-section {
-    padding: 50px 45px;
-  }
-  .section-header {
+    padding: 30px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-header {
     margin-bottom: 30px;
-  }
-  .section-header h2 {
-    font-size: 32px;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: clamp(24px, 3vw, 32px);
     font-weight: bold;
-  }
-  .section-header p {
-    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section-header p {
+    font-size: clamp(14px, 1.5vw, 16px);
     color: #666;
-  }
-  .image-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.image-grid {
     display: flex;
+    flex-direction: column;
     gap: 20px;
-  }
-  .image-box {
+}
+
+.image-box {
     position: relative;
-    width: 50%;
-    height: 650px;
+    width: 100%;
+    height: 400px;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-  }
-  .overlay {
+    border-radius: 4px;
+    overflow: hidden;
+}
 
+.overlay {
     color: white;
-    text-align: center;
-    padding: 45px;
-    width: 100%;
     text-align: left;
- 
-  }
- .overlayh3{
-   color:white;
- }
-  .btn {
+    padding: 25px;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+}
+
+.overlayh3 {
+    color: white;
+    font-size: clamp(18px, 2vw, 24px);
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: clamp(14px, 1.5vw, 16px);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.btn {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -47,5 +71,58 @@
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-   
-  }
+    font-size: 14px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+    .image-box {
+        height: 450px;
+    }
+    
+    .overlay {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .image-grid {
+        flex-direction: row;
+    }
+    
+    .image-box {
+        width: 50%;
+        height: 500px;
+    }
+    
+    .overlay {
+        padding: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-section {
+        padding: 50px 45px;
+    }
+    
+    .image-box {
+        height: 600px;
+    }
+    
+    .overlay {
+        padding: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .image-box {
+        height: 650px;
+    }
+}

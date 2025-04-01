@@ -1,5 +1,19 @@
-{{ 'quality-section.css' | asset_url | stylesheet_tag }}
-<script src="{{ 'quality-section.js' | asset_url }}" defer></script>
+{{ 'timeline.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'timeline.js' | asset_url }}" defer></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
 
 <div class="timeline-scroll-container page-width">
   <div class="timeline-container">
@@ -35,7 +49,7 @@
 
 {% schema %}
 {
-  "name": "Quality section",
+  "name": "Timeline",
   "tag": "section",
   "class": "vertical-timeline-section",
   "settings": [
@@ -93,7 +107,7 @@
   ],
   "presets": [
     {
-      "name": "Quality section"
+      "name": "Timeline"
     }
   ]
 }

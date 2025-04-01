@@ -49,6 +49,35 @@
         "show_text_below": false
       }
     },
+    "image_with_collection_Ap96xx": {
+      "type": "image-with-collection",
+      "settings": {
+        "main_image": "shopify://shop_images/Jewelry_36.webp",
+        "trends_tradition_heading": "TRENDS & TRADITION",
+        "main_heading": "FOR EVERYDAY WEAR",
+        "description": "<p>From dainty classics that are perfect for daily adornment to chic, to trendsetting pieces designed to complement any occasion - our selection blends exquisite craftsmanship with modern sensibility.</p>",
+        "image_1": "shopify://shop_images/E-ARP-S_2018-12-05_02-17-39_RfidCklUbQ.jpg",
+        "image_1_label": "Bestsellers",
+        "image_1_count": "54",
+        "image_2": "shopify://shop_images/N-AMPHORA-S_2018-12-05_02-17-39_D2KmTGi0wp.jpg",
+        "image_2_label": "New",
+        "image_2_count": "24"
+      }
+    },
+    "timeline_nPaqNU": {
+      "type": "timeline",
+      "settings": {
+        "image_1": "shopify://shop_images/DTS_OBJECTS_Daniel_Faro_7375.webp",
+        "image_2": "shopify://shop_images/DTS_Daniel_Faro_Treasure_036-2.webp",
+        "image_3": "shopify://shop_images/DTS_Daniel_Faro_Treasure_001-2.webp",
+        "heading_1": "QUALITY & CARE",
+        "text_1": "Most jewelry is 14k gold filled, sterling silver, or rose gold filled. The best jewelry is always well cared for.",
+        "heading_2": "GIVING BACK",
+        "text_2": "1% of profits go to the ATC foundation to combat deforestation. We use compostable packaging.",
+        "heading_3": "COMMUNITY ORIENTED",
+        "text_3": "We support creative programs for underrepresented communities and youth."
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -78,35 +107,6 @@
         "padding_bottom": 36
       }
     },
-    "quality_section_7ickXP": {
-      "type": "quality-section",
-      "settings": {
-        "image_1": "shopify://shop_images/DTS_OBJECTS_Daniel_Faro_7375.webp",
-        "image_2": "shopify://shop_images/DTS_Daniel_Faro_Treasure_036-2.webp",
-        "image_3": "shopify://shop_images/DTS_Daniel_Faro_Treasure_001-2.webp",
-        "heading_1": "QUALITY & CARE",
-        "text_1": "Most jewelry is 14k gold filled, sterling silver, or rose gold filled. The best jewelry is always well cared for.",
-        "heading_2": "GIVING BACK",
-        "text_2": "1% of profits go to the ATC foundation to combat deforestation. We use compostable packaging.",
-        "heading_3": "COMMUNITY ORIENTED",
-        "text_3": "We support creative programs for underrepresented communities and youth."
-      }
-    },
-    "for_everyday_wear_ReWN6z": {
-      "type": "for-everyday-Wear",
-      "settings": {
-        "main_image": "shopify://shop_images/Jewelry_36.webp",
-        "trends_tradition_heading": "TRENDS & TRADITION",
-        "main_heading": "FOR EVERYDAY WEAR",
-        "description": "<p>From dainty classics that are perfect for daily adornment to chic, to trendsetting pieces designed to complement any occasion – our selection blends exquisite craftsmanship with modern sensibility.</p>",
-        "image_1": "shopify://shop_images/E-ARP-S_2018-12-05_02-17-39_RfidCklUbQ.webp",
-        "image_1_label": "Bestsellers",
-        "image_1_count": "54",
-        "image_2": "shopify://shop_images/N-PALMS-S_2018-12-05_01-46-40_1shLcNTWPH.webp",
-        "image_2_label": "New",
-        "image_2_count": "24"
-      }
-    },
     "ethical_section_FXKQNU": {
       "type": "ethical-section",
       "settings": {
@@ -122,17 +122,6 @@
         "image2_paragraph": "Accessorize with 14k recycled gold all day, every day.",
         "image2_button": "SHOP NOW",
         "image2_link": ""
-      }
-    },
-    "now_on_sale_RewKdf": {
-      "type": "now-on-sale",
-      "settings": {
-        "background_image": "shopify://shop_images/Broadcast_Jewelry_10-10_noise.jpg",
-        "heading": "YOUR FAVORITE, NOW ON SALE!",
-        "subheading": "Available in both 14k gold and sterling silver",
-        "button_link": "",
-        "button_text": "SHOP NOW",
-        "featured_product": "helix"
       }
     },
     "variant_change_section_NeKnpc": {
@@ -168,17 +157,28 @@
         "product": "",
         "parallax_speed": 5
       }
+    },
+    "image_with_product_gH4W9d": {
+      "type": "image-with-product",
+      "settings": {
+        "background_image": "shopify://shop_images/Broadcast_Jewelry_10-10_noise.jpg",
+        "heading": "YOUR FAVORITE, NOW ON SALE!",
+        "subheading": "Available in both 14k gold and sterling silver",
+        "button_link": "",
+        "button_text": "SHOP NOW",
+        "featured_product": "ilona-ring-in-gold"
+      }
     }
   },
   "order": [
     "image_banner",
+    "timeline_nPaqNU",
     "featured_collection",
-    "quality_section_7ickXP",
-    "for_everyday_wear_ReWN6z",
+    "image_with_collection_Ap96xx",
     "ethical_section_FXKQNU",
-    "now_on_sale_RewKdf",
     "variant_change_section_NeKnpc",
     "mm_featured_collection_HtKLXK",
-    "parallax_section_rCNKQF"
+    "parallax_section_rCNKQF",
+    "image_with_product_gH4W9d"
   ]
 }
